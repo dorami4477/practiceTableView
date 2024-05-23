@@ -13,6 +13,7 @@
 		48B1D8C42BFF3A590022757C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 48B1D8C32BFF3A590022757C /* Base */; };
 		48B1D8C62BFF3A5A0022757C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48B1D8C52BFF3A5A0022757C /* Assets.xcassets */; };
 		48B1D8C92BFF3A5A0022757C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 48B1D8C82BFF3A5A0022757C /* Base */; };
+		48B1D8D12BFF3F2D0022757C /* Case2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B1D8D02BFF3F2D0022757C /* Case2TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		48B1D8C52BFF3A5A0022757C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48B1D8C82BFF3A5A0022757C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48B1D8CA2BFF3A5A0022757C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48B1D8D02BFF3F2D0022757C /* Case2TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case2TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				48B1D8BC2BFF3A590022757C /* AppDelegate.swift */,
 				48B1D8BE2BFF3A590022757C /* SceneDelegate.swift */,
 				48B1D8C02BFF3A590022757C /* ViewController.swift */,
+				48B1D8D02BFF3F2D0022757C /* Case2TableViewController.swift */,
 				48B1D8C22BFF3A590022757C /* Main.storyboard */,
 				48B1D8C52BFF3A5A0022757C /* Assets.xcassets */,
 				48B1D8C72BFF3A5A0022757C /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				48B1D8C12BFF3A590022757C /* ViewController.swift in Sources */,
 				48B1D8BD2BFF3A590022757C /* AppDelegate.swift in Sources */,
+				48B1D8D12BFF3F2D0022757C /* Case2TableViewController.swift in Sources */,
 				48B1D8BF2BFF3A590022757C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +304,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +312,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dahyun.-40523-TableViewHW";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -328,6 +337,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +345,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dahyun.-40523-TableViewHW";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
